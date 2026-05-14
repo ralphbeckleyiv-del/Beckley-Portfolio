@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ralph Beckley | Portfolio</title>
+  <title>Ralph Beckley | Developer Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <header class="top-header">
-    <div class="logo">RB</div>
+    <div class="brand">
+      <div class="logo">RB</div>
+      <span>Ralph Beckley</span>
+    </div>
 
     <nav class="nav-buttons">
       <button class="nav-btn active" data-page="home">Home</button>
@@ -22,107 +25,342 @@
 
   <main>
 
+    <!-- HOME -->
     <section class="page active-page" id="home">
-      <div class="hero">
-        <img src="ralph.png" alt="Ralph Beckley" class="profile-img" />
-        <h1>Ralph Beckley</h1>
-        <h2>Junior Software Developer | JavaScript | React</h2>
-        <p>
-          I build interactive web projects and game-inspired systems with a focus
-          on creativity, clean logic, and steady growth as a developer.
-        </p>
+      
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Entry-Level Software Developer</p>
+          <h1>Ralph Beckley</h1>
+          <h2>JavaScript • React • Interactive Web Projects</h2>
+
+          <p class="hero-description">
+            I build interactive web projects with a focus on clean layouts,
+            practical JavaScript, and game-inspired systems. My goal is to keep
+            improving as a developer while creating projects that are useful,
+            readable, and easy to interact with.
+          </p>
+
+          <div class="hero-actions">
+            <button class="primary-btn nav-link-btn" data-page="projects">View Projects</button>
+            <a href="https://github.com/ralphbeckleyiv-del" target="_blank" class="secondary-btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/ralphbeckley/" target="_blank" class="secondary-btn">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <img src="ralph.png" alt="Ralph Beckley" class="profile-img" />
+          <h3>Currently Building</h3>
+          <p>
+            Portfolio updates, JavaScript projects, React practice, and
+            small game-inspired systems.
+          </p>
+        </div>
       </div>
+
+      <div class="home-highlights">
+        <div class="highlight-card">
+          <h3>Frontend Development</h3>
+          <p>HTML, CSS, JavaScript, and React projects focused on clean user interfaces.</p>
+        </div>
+
+        <div class="highlight-card">
+          <h3>Game-Inspired Logic</h3>
+          <p>Projects that use systems like player choices, game states, and interactive UI.</p>
+        </div>
+
+        <div class="highlight-card">
+          <h3>Career Growth</h3>
+          <p>Continuing to build stronger projects while preparing for entry-level developer roles.</p>
+        </div>
+      </div>
+
+      <div class="featured-projects">
+  <h2>Featured Projects</h2>
+  <p class="featured-intro">
+    A quick look at some of the projects I am building as I grow my web development skills.
+  </p>
+
+  <div class="featured-grid">
+    <div class="featured-card">
+      <div class="featured-image">Portfolio</div>
+      <h3>Portfolio Website</h3>
+      <p>A personal website built with HTML, CSS, and JavaScript to showcase my work.</p>
+    </div>
+
+    <div class="featured-card">
+      <div class="featured-image">Color Game</div>
+      <h3>Color Guessing Game</h3>
+      <p>A small JavaScript game focused on player input, DOM updates, and logic.</p>
+    </div>
+
+    <div class="featured-card">
+      <div class="featured-image">RuneTales</div>
+      <h3>RuneTales</h3>
+      <p>A text-based RPG idea focused on exploration, dialogue, and game systems.</p>
+    </div>
+  </div>
+
+  <button class="primary-btn nav-link-btn" data-page="projects">
+    View All Projects
+  </button>
+</div>
     </section>
 
+    <!-- ABOUT -->
     <section class="page" id="about">
-      <div class="card">
-        <h2>About Ralph</h2>
-        <p>
-          I’m an aspiring software developer with a strong interest in JavaScript,
-          React, and game-related systems.
-        </p>
-        <p>
-          I enjoy projects that combine logic, creativity, and interactivity,
-          whether that means building front-end web experiences or designing
-          gameplay ideas in Unity.
-        </p>
-        <p>
-          Long-term, I want to create both interactive web applications and games,
-          especially projects that feel memorable, expressive, and system-driven.
-        </p>
+      <div class="section-card about-grid">
+        <div>
+          <img src="ralph.png" alt="Ralph Beckley" class="about-img" />
+        </div>
+
+        <div>
+          <p class="eyebrow">About Me</p>
+          <h2>Developer focused on logic, creativity, and steady improvement.</h2>
+
+          <p>
+            I’m an aspiring software developer focused on JavaScript, React,
+            and interactive front-end projects. I enjoy building projects that
+            combine structure, problem solving, and creativity.
+          </p>
+
+          <p>
+            My background includes completing software development coursework,
+            practicing with web development tools, and building projects that
+            help me understand how code connects to real user experiences.
+          </p>
+
+          <p>
+            Long-term, I want to grow into software development while also
+            creating game-related systems, interactive websites, and projects
+            that show both technical skill and personality.
+          </p>
+        </div>
       </div>
     </section>
 
+    <!-- SKILLS -->
     <section class="page" id="skills">
-      <div class="card">
-        <h2>Technical Skills</h2>
+      <div class="section-card">
+        <p class="eyebrow">Technical Skills</p>
+        <h2>Tools and technologies I’m building with</h2>
+
+        <div class="skills-category-grid">
+          <div class="skill-box">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, React</p>
+          </div>
+
+          <div class="skill-box">
+            <h3>Tools</h3>
+            <p>GitHub, GitHub Desktop, VS Code, browser developer tools</p>
+          </div>
+
+          <div class="skill-box">
+            <h3>Learning</h3>
+            <p>React Native, Node.js, responsive design, UI structure</p>
+          </div>
+
+          <div class="skill-box">
+            <h3>Additional Background</h3>
+            <p>Cybersecurity fundamentals, IT concepts, Unity game development basics</p>
+          </div>
+        </div>
 
         <div class="skills-grid">
-          <div>JavaScript</div>
-          <div>React</div>
-          <div>React Native</div>
-          <div>HTML</div>
-          <div>CSS</div>
-          <div>GitHub</div>
-          <div>VS Code</div>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>React Native</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>GitHub</span>
+          <span>VS Code</span>
+          <span>Unity Basics</span>
         </div>
       </div>
     </section>
 
+    <!-- PROJECTS -->
     <section class="page" id="projects">
-      <div class="card">
+      <div class="section-card">
+        <p class="eyebrow">Project Work</p>
         <h2>Projects & Development Work</h2>
 
-        <div class="project">
-          <h3>RuneTales</h3>
-          <p>
-            A text-based game system focused on exploration, NPC interaction,
-            story progression, and game-like UI ideas.
-          </p>
-        </div>
+        <div class="projects-grid">
 
-        <div class="project">
-          <h3>Color Guessing Games</h3>
-          <p>
-            A Game where you have to figure out the right color 
-          </p>
-        </div>
+          <article class="project-card">
+            <div class="project-image placeholder-img">RuneTales</div>
+            <div class="project-content">
+              <h3>RuneTales</h3>
+              <p>
+                A text-based RPG prototype focused on exploration, NPC interaction,
+                dialogue choices, and game-style UI systems.
+              </p>
 
-        <div class="project">
-          <h3>Portfolio Website</h3>
-          <p>
-            A personal developer portfolio built with HTML, CSS, and JavaScript.
-          </p>
-        </div>
+              <div class="tag-row">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
 
-        <div class="project">
-          <h3>Game Hub</h3>
-          <p>
-            A place to find all games built by me.
-          </p>
-        </div>
+              <ul>
+                <li>Exploration and location-based movement ideas</li>
+                <li>NPC interaction and dialogue planning</li>
+                <li>Game interface concepts for future expansion</li>
+              </ul>
 
-        <div class="project">
-          <h3>Unity Game Experiments</h3>
-          <p>
-            Early gameplay systems and enemy behavior experiments created while
-            learning Unity and game development.
-          </p>
+              <div class="project-links">
+                <a href="#" target="_blank">Live Demo</a>
+                <a href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image placeholder-img">Color Game</div>
+            <div class="project-content">
+              <h3>Color Guessing Game</h3>
+              <p>
+                A JavaScript game where the player chooses the correct color
+                based on a displayed value or clue.
+              </p>
+
+              <div class="tag-row">
+                <span>JavaScript</span>
+                <span>DOM</span>
+                <span>CSS</span>
+              </div>
+
+              <ul>
+                <li>Uses JavaScript logic to check player guesses</li>
+                <li>Updates the page based on user interaction</li>
+                <li>Practices DOM events and UI feedback</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="#" target="_blank">Live Demo</a>
+                <a href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image placeholder-img">Portfolio</div>
+            <div class="project-content">
+              <h3>Portfolio Website</h3>
+              <p>
+                A personal developer portfolio built to showcase my skills,
+                projects, and professional growth.
+              </p>
+
+              <div class="tag-row">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <ul>
+                <li>Separate page-style sections using JavaScript</li>
+                <li>Responsive layout for desktop and mobile</li>
+                <li>Project and contact sections for recruiters</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="https://ralphbeckleyiv-del.github.io/Beckley-Portfolio/" target="_blank">Live Demo</a>
+                <a href="https://github.com/ralphbeckleyiv-del" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image placeholder-img">Game Hub</div>
+            <div class="project-content">
+              <h3>Game Hub</h3>
+              <p>
+                A planned landing page for small browser games and interactive
+                JavaScript projects.
+              </p>
+
+              <div class="tag-row">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <ul>
+                <li>Central place to organize small projects</li>
+                <li>Designed around simple navigation and project cards</li>
+                <li>Built to grow as more games are completed</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="#" target="_blank">Live Demo</a>
+                <a href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image placeholder-img">Unity</div>
+            <div class="project-content">
+              <h3>Unity Game Experiments</h3>
+              <p>
+                Early gameplay experiments created while learning Unity,
+                including movement, enemy behavior, and game system ideas.
+              </p>
+
+              <div class="tag-row">
+                <span>Unity</span>
+                <span>C# Basics</span>
+                <span>Game Logic</span>
+              </div>
+
+              <ul>
+                <li>Player and enemy behavior experiments</li>
+                <li>Basic gameplay system planning</li>
+                <li>Practice connecting mechanics with player experience</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="#" target="_blank">Demo</a>
+                <a href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+
         </div>
       </div>
     </section>
 
+    <!-- CONTACT -->
     <section class="page" id="contact">
-      <div class="card">
+      <div class="section-card">
+        <p class="eyebrow">Contact</p>
         <h2>Connect With Ralph</h2>
+
         <p>
-          Here are the main places to view my work, development progress,
-          and professional profile.
+          I’m currently building my portfolio, improving my JavaScript and React
+          skills, and preparing for entry-level software development opportunities.
         </p>
 
-        <div class="contact-links">
-          <a href="https://github.com/ralphbeckleyiv-del" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/ralphbeckley/" target="_blank">LinkedIn</a>
+        <div class="contact-card-grid">
+          <div class="contact-card">
+            <h3>Location</h3>
+            <p>Washington State</p>
+            <p>Open to remote or local opportunities</p>
+          </div>
+
+          <div class="contact-card">
+            <h3>GitHub</h3>
+            <p>View my projects and code progress.</p>
+            <a href="https://github.com/ralphbeckleyiv-del" target="_blank">Open GitHub</a>
+          </div>
+
+          <div class="contact-card">
+            <h3>LinkedIn</h3>
+            <p>Connect with me professionally.</p>
+            <a href="https://www.linkedin.com/in/ralphbeckley/" target="_blank">Open LinkedIn</a>
+          </div>
         </div>
       </div>
     </section>
@@ -130,7 +368,7 @@
   </main>
 
   <footer>
-    <p>© 2026 Ralph Beckley</p>
+    <p>© 2026 Ralph Beckley. Built with HTML, CSS, and JavaScript.</p>
   </footer>
 
   <script src="script.js"></script>
